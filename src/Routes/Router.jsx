@@ -16,7 +16,7 @@ import Payment from "../Pages/Dashboard/Payment/Payment.jsx";
 import PaymentSuccess from "../Pages/Dashboard/Payment/PaymentSuccess.jsx";
 import PaymentCancelled from "../Pages/Dashboard/Payment/PaymentCancelled.jsx";
 import PaymentHistory from "../Pages/Dashboard/PaymentHistory/PaymentHistory.jsx";
-import ApproveRiders from "../Pages/Dashboard/ApproveRiders/approveRiders.jsx";
+import ApproveRiders from "../Pages/Dashboard/ApproveRiders/ApproveRiders.jsx";
 import UsersManagement from "../Pages/Dashboard/UsersManagement/UsersManagement.jsx";
 import AdminRoute from "./AdminRoute.jsx";
 import AssignRiders from "../Pages/Dashboard/AssignRiders/AssignRiders.jsx";
