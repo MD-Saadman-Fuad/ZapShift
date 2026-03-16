@@ -51,7 +51,7 @@ export const router = createBrowserRouter([
                 path: "/rider",
                 element: <PrivateRoutes><Rider /></PrivateRoutes>,
                 loader: () => fetch('/serviceCenters.json').then(res => res.json()),
-            },{
+            }, {
                 path: "/send-parcel",
                 element: <PrivateRoutes><SendParcel /></PrivateRoutes>,
                 loader: () => fetch('/serviceCenters.json').then(res => res.json()),
@@ -68,8 +68,8 @@ export const router = createBrowserRouter([
         Component: AuthLayout,
         children: [
             {
-               path: 'login', 
-               Component: Login,
+                path: 'login',
+                Component: Login,
             },
             {
                 path: 'register',

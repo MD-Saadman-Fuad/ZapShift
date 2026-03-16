@@ -2,9 +2,9 @@ import React from 'react';
 import { useForm, useWatch } from 'react-hook-form';
 import { useLoaderData, useNavigate } from 'react-router';
 import Swal from 'sweetalert2';
-import useAxiosSecure from '../../hooks/useAxiosSecure';
+import useAxiosSecure from '../../Hooks/useAxiosSecure';
 // import axios from 'axios';
-import useAuth from '../../hooks/useAuth';
+import useAuth from '../../Hooks/useAuth';
 
 const SendParcel = () => {
     const { register, handleSubmit, control,
