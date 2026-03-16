@@ -25,7 +25,11 @@ const SocialLogin = () => {
                         console.log('User info saved to database');
                     })
                     .catch(err => {
-                        console.log('Error saving user info to database', err);
+                        if (err.response?.status === 409) {
+                            console.log('User already exists in database');
+                        } else {
+                            console.log('Error saving user info to database', err);
+                        }
                     });
 
             })
