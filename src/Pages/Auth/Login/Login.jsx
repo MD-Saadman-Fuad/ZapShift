@@ -45,7 +45,7 @@ const Login = () => {
                     <button class="btn btn-neutral bg-primary text-black mt-4">Login</button>
                 </fieldset>
                 <p>New to ZapShift? <Link state={location.state}
-                className="text-primary" to="/register">Register</Link></p>
+                    className="text-primary" to="/register">Register</Link></p>
             </form>
             <SocialLogin />
         </div>
